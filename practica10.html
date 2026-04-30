@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<!-- la etiqueta table se utiliza para definir tablas en HTML. todo el contenido de la tabla, incluidas las filas y celdas, se coloca dentro de esta etiqueta -->
+
+<!-- la etiqueta tr se utiliza para definir filas en una tabla. cada fila puede contener una o mas celdas, que se deinen utilizando las etiquetas td (celda de datos) o th (celda de encabezado) -->
+
+<!-- la etiqueta td define una celda de datos dentro de una fila. cada etiqeuta td representa una celda de datos en la tabla -->
+
+<!-- la etiqueta th define una celda de encabezado dentro de una fila. cada etiqueta th representa una celda de encabezado en la tabla -->
+
+<table>
+
+</table><!-- etiqueta de apertura-->
+    <tr> <!-- fila 1 -->
+        <th>encabezado1</th>
+        <th>encabezado2</th>
+        <th>encabezado3</th>
+    </tr>
+    <tr> <!-- fila 2 -->
+        <td>dato1</td> <!-- celda 1 de la fila 2 -->
+        <td>dato2</td> <!-- celda 2 de la fila 2 -->
+        <td>dato3</td> <!-- celda 3 de la fila 2 -->
+    </tr>
+    <tr> <!-- fila 3 -->
+        <td>dato4</td> <!--celda de datos-->
+        <td>dato5</td> <!-- celda de datos-->
+        <td>dato6</td> <!-- celda de datos-->
+    </tr>
+</table><!-- etiqueta de cierre-->
+
+<br>
+
+<table border="1"> <!-- tabla con borde -->
+    <caption>paises y capitales</caption>
+    <tr>
+        <th>pais</th>
+        <th>capital</th>
+    </tr>
+    <tr>
+        <td>españa</td>
+        <td>madrid</td>
+    </tr>
+    <tr>
+        <td>francia</td>
+        <td>paris</td>
+    </tr>
+    <tr>
+        <td>italia</td>
+        <td>roma</td>
+    </tr>
+</table>
+
+<table border="1"> <!-- tabla con celdas combindas-->
+    <tr>
+        <th colspan="4">mundial de futbol</th> <!-- celda de encabezado que abarca 4 columnas -->
+    </tr>
+    <tr>
+        <td rowspan="3">paises con mayoria de goles</td> <!-- celda de datos que abarca 3 filas -->
+        <td>brasil 2</td> <td>238</td>
+    </tr>
+
+    <tr>
+        <td>alemania</td> <td>188</td>
+    </tr>
+</tr>
+        <td>argentina</td> <td>156</td>
+
+</table>
+
+
+
+
+</body>
+</html>
